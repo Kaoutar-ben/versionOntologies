@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#pilote">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/vehicules#StrategieGestion"/>
+    <rdfs:range rdf:resource="http://www.example.org/vehicules#SystemeHybrideStockageEnergie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#contient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/vehicules#SystemeHybrideStockageEnergie"/>
+    <rdfs:range rdf:resource="http://www.example.org/vehicules#Batterie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#StrategieGestion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#BatteriePuissance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/vehicules#Batterie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#possedeChaineTraction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/vehicules#VehiculeElectrique"/>
+    <rdfs:range rdf:resource="http://www.example.org/vehicules#ChaineTraction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#utiliseStrategie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/vehicules#SystemeHybrideStockageEnergie"/>
+    <rdfs:range rdf:resource="http://www.example.org/vehicules#StrategieGestion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#gere">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/vehicules#Convertisseur"/>
+    <rdfs:range rdf:resource="http://www.example.org/vehicules#SystemeHybrideStockageEnergie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#estAlimentePar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/vehicules#VehiculeElectrique"/>
+    <rdfs:range rdf:resource="http://www.example.org/vehicules#SystemeHybrideStockageEnergie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#Batterie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#alimente">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/vehicules#SystemeHybrideStockageEnergie"/>
+    <rdfs:range rdf:resource="http://www.example.org/vehicules#ChaineTraction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#SystemeHybrideStockageEnergie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#estConnecteA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/vehicules#Batterie"/>
+    <rdfs:range rdf:resource="http://www.example.org/vehicules#Convertisseur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#BatterieEnergie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/vehicules#Batterie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#utiliseConvertisseur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/vehicules#VehiculeElectrique"/>
+    <rdfs:range rdf:resource="http://www.example.org/vehicules#Convertisseur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#Convertisseur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#ChaineTraction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/vehicules#VehiculeElectrique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>

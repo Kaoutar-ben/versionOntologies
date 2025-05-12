@@ -1,0 +1,688 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7/"
+     xml:base="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#alimente -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#alimente">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#composeDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#composeDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#controle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#controle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#StrategieGestion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#interfaceAvec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#interfaceAvec">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#pilote -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#pilote">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#pilotePar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#StrategieGestion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#pilotePar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#pilotePar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#StrategieGestion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#recoitEnergieDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#recoitEnergieDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Autonomie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Autonomie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#C0 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#C0">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#C1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#C1">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Capacite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Capacite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Chimie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Chimie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Commande -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Commande">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#CoupleMaxCT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#CoupleMaxCT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Courant -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Courant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#CourantMaxDecharge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#CourantMaxDecharge">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#CourantMaxRecharge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#CourantMaxRecharge">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Cx -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Cx">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#CycleUtilisation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#CycleUtilisation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#DechargeHESS -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#DechargeHESS">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#DensiteEnergie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#DensiteEnergie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#DensitePuissanceDecharge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#DensitePuissanceDecharge">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#DensitePuissanceRecharge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#DensitePuissanceRecharge">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#EnergieTotale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#EnergieTotale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#FrequenceCommutation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#FrequenceCommutation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#MasseBatterie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#MasseBatterie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#MasseConvertisseur -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#MasseConvertisseur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#MasseHESS -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#MasseHESS">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#MasseTotale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#MasseTotale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Methode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Methode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#StrategieGestion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ModeFonctionnement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ModeFonctionnement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#StrategieGestion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ModeFonctionnementCT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ModeFonctionnementCT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#PuissanceCT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#PuissanceCT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#PuissanceMax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#PuissanceMax">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#PuissanceMotorisation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#PuissanceMotorisation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#PuissanceMotorisationCT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#PuissanceMotorisationCT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#PuissanceNominale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#PuissanceNominale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#RayonRoue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#RayonRoue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#RechargeHESS -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#RechargeHESS">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Refroidissement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Refroidissement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Rendement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Rendement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#RendementGlobal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#RendementGlobal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Rendment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Rendment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Resistance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Resistance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#SOC -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#SOC">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#SOH -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#SOH">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#SourcePriorite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#SourcePriorite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#StrategieGestion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#SurfaceFrontale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#SurfaceFrontale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Temperature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Temperature">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TemperatureCT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TemperatureCT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TempsReaction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TempsReaction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#StrategieGestion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Tension -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Tension">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionCT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionCT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionCoupureDecharge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionCoupureDecharge">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionEntreeMax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionEntreeMax">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionEntreeMin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionEntreeMin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionNominale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionNominale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionNominaleCT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionNominaleCT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionSortieMax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionSortieMax">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionSortieMin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#TensionSortieMin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Topologie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Topologie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VitesseMaximale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VitesseMaximale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VitesseMoteur -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VitesseMoteur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Volume -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Volume">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VolumeTotale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VolumeTotale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#BatterieEnergie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#BatterieEnergie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#BatteriePuissance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#BatteriePuissance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#BatteriePuissance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Batteries"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#ChaineTraction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#Convertisseur"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#HESS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#StrategieGestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#StrategieGestion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/3/untitled-ontology-7#VehicileElectrique"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,843 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/vehiculeElectrique"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/vehiculeElectrique">
+    
+    <!-- Classes principales -->
+    <Declaration>
+        <Class IRI="#VehiculeElectrique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Batterie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BatterieEnergie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BatteriePuissance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Convertisseur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrategieGestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChaineTraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusDC"/>
+    </Declaration>
+    
+    <!-- Hiérarchie de classes -->
+    <SubClassOf>
+        <Class IRI="#BatterieEnergie"/>
+        <Class IRI="#Batterie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BatteriePuissance"/>
+        <Class IRI="#Batterie"/>
+    </SubClassOf>
+    
+    <!-- Propriétés de données pour VehiculeElectrique -->
+    <Declaration>
+        <DataProperty IRI="#autonomie"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#autonomie"/>
+        <Class IRI="#VehiculeElectrique"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#autonomie"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#masseTotaleVehicule"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#masseTotaleVehicule"/>
+        <Class IRI="#VehiculeElectrique"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#masseTotaleVehicule"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#puissanceMotorisation"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puissanceMotorisation"/>
+        <Class IRI="#VehiculeElectrique"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#puissanceMotorisation"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#vitesseMaximale"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vitesseMaximale"/>
+        <Class IRI="#VehiculeElectrique"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#vitesseMaximale"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#typeTransmission"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#typeTransmission"/>
+        <Class IRI="#VehiculeElectrique"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#typeTransmission"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#cycleUtilisation"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cycleUtilisation"/>
+        <Class IRI="#VehiculeElectrique"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#cycleUtilisation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#surfaceFrontale"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#surfaceFrontale"/>
+        <Class IRI="#VehiculeElectrique"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#surfaceFrontale"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <!-- Propriétés de données pour SystemeHybrideStockageEnergie -->
+    <Declaration>
+        <DataProperty IRI="#energieTotale"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#energieTotale"/>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#energieTotale"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#puissanceMaximaleHESS"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puissanceMaximaleHESS"/>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#puissanceMaximaleHESS"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#masseTotaleHESS"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#masseTotaleHESS"/>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#masseTotaleHESS"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#volumeTotale"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#volumeTotale"/>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#volumeTotale"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#rendementHESS"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rendementHESS"/>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#rendementHESS"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <!-- Propriétés de données pour Batterie -->
+    <Declaration>
+        <DataProperty IRI="#capacite"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacite"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#capacite"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#masseBatterie"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#masseBatterie"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#masseBatterie"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#SOC"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SOC"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#SOC"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#SOH"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SOH"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#SOH"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#tensionNominaleBatterie"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tensionNominaleBatterie"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tensionNominaleBatterie"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#tensionCoupureDecharge"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tensionCoupureDecharge"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tensionCoupureDecharge"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#courantBatterie"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#courantBatterie"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#courantBatterie"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#tensionBatterie"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tensionBatterie"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tensionBatterie"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#temperatureBatterie"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temperatureBatterie"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#temperatureBatterie"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#resistance"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#resistance"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#resistance"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#chimie"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#chimie"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#chimie"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#densitePuissanceDecharge"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#densitePuissanceDecharge"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#densitePuissanceDecharge"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#densitePuissanceRecharge"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#densitePuissanceRecharge"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#densitePuissanceRecharge"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#densiteEnergie"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#densiteEnergie"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#densiteEnergie"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#courantMaxDecharge"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#courantMaxDecharge"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#courantMaxDecharge"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#courantMaxRecharge"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#courantMaxRecharge"/>
+        <Class IRI="#Batterie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#courantMaxRecharge"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <!-- Propriétés spécifiques pour BatterieEnergie -->
+    <Declaration>
+        <DataProperty IRI="#densiteEnergieSpecifique"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#densiteEnergieSpecifique"/>
+        <Class IRI="#BatterieEnergie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#densiteEnergieSpecifique"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <!-- Propriétés spécifiques pour BatteriePuissance -->
+    <Declaration>
+        <DataProperty IRI="#densitePuissanceDechargeSpecifique"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#densitePuissanceDechargeSpecifique"/>
+        <Class IRI="#BatteriePuissance"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#densitePuissanceDechargeSpecifique"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#densitePuissanceRechargeSpecifique"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#densitePuissanceRechargeSpecifique"/>
+        <Class IRI="#BatteriePuissance"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#densitePuissanceRechargeSpecifique"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <!-- Propriétés de données pour Convertisseur -->
+    <Declaration>
+        <DataProperty IRI="#rendementConvertisseur"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rendementConvertisseur"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#rendementConvertisseur"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#masseConvertisseur"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#masseConvertisseur"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#masseConvertisseur"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#puissanceNominale"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puissanceNominale"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#puissanceNominale"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#volumeConvertisseur"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#volumeConvertisseur"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#volumeConvertisseur"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#tensionEntreeMin"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tensionEntreeMin"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tensionEntreeMin"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#tensionEntreeMax"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tensionEntreeMax"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tensionEntreeMax"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#tensionSortieMin"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tensionSortieMin"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tensionSortieMin"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#tensionSortieMax"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tensionSortieMax"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tensionSortieMax"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#frequenceCommutation"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#frequenceCommutation"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#frequenceCommutation"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#commande"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#commande"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#commande"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#topologie"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#topologie"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#topologie"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#refroidissement"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#refroidissement"/>
+        <Class IRI="#Convertisseur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#refroidissement"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <!-- Propriétés de données pour StrategieGestion -->
+    <Declaration>
+        <DataProperty IRI="#methode"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#methode"/>
+        <Class IRI="#StrategieGestion"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#methode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#modeFonctionnementStrategieGestion"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#modeFonctionnementStrategieGestion"/>
+        <Class IRI="#StrategieGestion"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#modeFonctionnementStrategieGestion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#sourcePriorite"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sourcePriorite"/>
+        <Class IRI="#StrategieGestion"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#sourcePriorite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#tempsReaction"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tempsReaction"/>
+        <Class IRI="#StrategieGestion"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tempsReaction"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <!-- Propriétés de données pour ChaineTraction -->
+    <Declaration>
+        <DataProperty IRI="#tensionNominaleChaineTraction"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tensionNominaleChaineTraction"/>
+        <Class IRI="#ChaineTraction"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tensionNominaleChaineTraction"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#tensionChaineTraction"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tensionChaineTraction"/>
+        <Class IRI="#ChaineTraction"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tensionChaineTraction"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#puissanceMotorisationChaineTraction"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puissanceMotorisationChaineTraction"/>
+        <Class IRI="#ChaineTraction"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#puissanceMotorisationChaineTraction"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#puissanceChaineTraction"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puissanceChaineTraction"/>
+        <Class IRI="#ChaineTraction"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#puissanceChaineTraction"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#coupleMax"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#coupleMax"/>
+        <Class IRI="#ChaineTraction"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#coupleMax"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#rendementGlobal"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rendementGlobal"/>
+        <Class IRI="#ChaineTraction"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#rendementGlobal"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#modeFonctionnementChaineTraction"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#modeFonctionnementChaineTraction"/>
+        <Class IRI="#ChaineTraction"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#modeFonctionnementChaineTraction"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#vitesseMoteur"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vitesseMoteur"/>
+        <Class IRI="#ChaineTraction"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#vitesseMoteur"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <Declaration>
+        <DataProperty IRI="#temperatureChaineTraction"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temperatureChaineTraction"/>
+        <Class IRI="#ChaineTraction"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#temperatureChaineTraction"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    
+    <!-- Propriétés d'objet (relations entre classes) -->
+    <Declaration>
+        <ObjectProperty IRI="#estAlimentePar"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estAlimentePar"/>
+        <Class IRI="#VehiculeElectrique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estAlimentePar"/>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </ObjectPropertyRange>
+    
+    <Declaration>
+        <ObjectProperty IRI="#utilise"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utilise"/>
+        <Class IRI="#VehiculeElectrique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utilise"/>
+        <Class IRI="#Convertisseur"/>
+    </ObjectPropertyRange>
+    
+    <Declaration>
+        <ObjectProperty IRI="#possede"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possede"/>
+        <Class IRI="#VehiculeElectrique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possede"/>
+        <Class IRI="#ChaineTraction"/>
+    </ObjectPropertyRange>
+    
+    <Declaration>
+        <ObjectProperty IRI="#estComposeDe"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estComposeDe"/>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estComposeDe"/>
+        <Class IRI="#Batterie"/>
+    </ObjectPropertyRange>
+    
+    <Declaration>
+        <ObjectProperty IRI="#contient"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contient"/>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contient"/>
+        <Class IRI="#Convertisseur"/>
+    </ObjectPropertyRange>
+    
+    <Declaration>
+        <ObjectProperty IRI="#alimente"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#alimente"/>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#alimente"/>
+        <Class IRI="#BusDC"/>
+    </ObjectPropertyRange>
+    
+    <Declaration>
+        <ObjectProperty IRI="#estRelieeA"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estRelieeA"/>
+        <Class IRI="#BusDC"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estRelieeA"/>
+        <Class IRI="#ChaineTraction"/>
+    </ObjectPropertyRange>
+    
+    <Declaration>
+        <ObjectProperty IRI="#estConnecteA"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estConnecteA"/>
+        <Class IRI="#Convertisseur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estConnecteA"/>
+        <Class IRI="#Batterie"/>
+    </ObjectPropertyRange>
+    
+    <Declaration>
+        <ObjectProperty IRI="#composent"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#composent"/>
+        <Class IRI="#Batterie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#composent"/>
+        <Class IRI="#SystemeHybrideStockageEnergie"/>
+    </ObjectPropertyRange>
+    
+    <Declaration>
+        <ObjectProperty IRI="#pilote"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pilote"/>
+        <Class IRI="#StrategieGestion
