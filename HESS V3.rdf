@@ -45,7 +45,7 @@
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#controls -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#controls">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter"/>
     </owl:ObjectProperty>
     
@@ -55,7 +55,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#drives">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#isDrivenBy"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hess"/>
     </owl:ObjectProperty>
     
@@ -75,7 +75,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#isDrivenBy">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hess"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementSystem"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy"/>
     </owl:ObjectProperty>
     
 
@@ -361,9 +361,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasMaxOurputVoltageConverter -->
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasMaxOutputVoltageConverter -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasMaxOurputVoltageConverter">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasMaxOutputVoltageConverter">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
@@ -400,7 +400,7 @@
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasMethodManagementStrategy -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasMethodManagementStrategy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
@@ -481,7 +481,7 @@
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasOperatingModeManagementStrategy -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasOperatingModeManagementStrategy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -517,7 +517,7 @@
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasPrioritySourceManagementStrategy -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasPrioritySourceManagementStrategy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -526,7 +526,7 @@
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasReactionTimeManagementStrategy -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasReactionTimeManagementStrategy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
@@ -710,9 +710,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementSystem -->
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementSystem"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy"/>
     
 
 
@@ -822,12 +822,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load1">
         <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#strategy1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#strategy1"/>
     
 
 
