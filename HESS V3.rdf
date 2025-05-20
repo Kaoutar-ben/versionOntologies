@@ -401,7 +401,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasMethodManagementStrategy">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -759,6 +759,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteryP1">
         <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteries"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#powerBattery"/>
         <HESSV3:hasCapacityBattery rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</HESSV3:hasCapacityBattery>
         <HESSV3:hasChargePowerDensityBattery rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1046.3</HESSV3:hasChargePowerDensityBattery>
         <HESSV3:hasCurrentBattery rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</HESSV3:hasCurrentBattery>
@@ -769,21 +770,6 @@
         <HESSV3:hasResistanceBattery rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</HESSV3:hasResistanceBattery>
         <HESSV3:hasVoltageBattery rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.3</HESSV3:hasVoltageBattery>
         <HESSV3:providesPowerBattery rdf:datatype="http://www.w3.org/2001/XMLSchema#float">66.0</HESSV3:providesPowerBattery>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#bluecar -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#bluecar">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
-        <HESSV3:hasAutonomyLoad rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150.0</HESSV3:hasAutonomyLoad>
-        <HESSV3:hasCoeC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.008</HESSV3:hasCoeC0>
-        <HESSV3:hasCoeC1 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6E-6</HESSV3:hasCoeC1>
-        <HESSV3:hasCoeCx rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</HESSV3:hasCoeCx>
-        <HESSV3:hasMotorPower rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</HESSV3:hasMotorPower>
-        <HESSV3:hasTotalMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1400.0</HESSV3:hasTotalMass>
-        <HESSV3:hasWheelRaduis rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.33</HESSV3:hasWheelRaduis>
     </owl:NamedIndividual>
     
 
@@ -812,7 +798,14 @@
         <HESSV3:isComposedOf rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteryE1"/>
         <HESSV3:isComposedOf rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteryP1"/>
         <HESSV3:isComposedOf rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter1"/>
+        <HESSV3:isDrivenBy rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy1"/>
         <HESSV3:powers rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load1"/>
+        <HESSV3:hasChargeHess rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</HESSV3:hasChargeHess>
+        <HESSV3:hasDischargeHess rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</HESSV3:hasDischargeHess>
+        <HESSV3:hasEfficiencyHess rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.92</HESSV3:hasEfficiencyHess>
+        <HESSV3:hasMassHess rdf:datatype="http://www.w3.org/2001/XMLSchema#float">180.0</HESSV3:hasMassHess>
+        <HESSV3:hasTotalEnergyHess rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</HESSV3:hasTotalEnergyHess>
+        <HESSV3:hasTotalVolumeHess rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.12</HESSV3:hasTotalVolumeHess>
     </owl:NamedIndividual>
     
 
@@ -821,6 +814,28 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load1">
         <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+        <HESSV3:receivesEnergyFrom rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hess1"/>
+        <HESSV3:hasAutonomyLoad rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150.0</HESSV3:hasAutonomyLoad>
+        <HESSV3:hasCoeC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.008</HESSV3:hasCoeC0>
+        <HESSV3:hasCoeC1 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6E-6</HESSV3:hasCoeC1>
+        <HESSV3:hasCoeCx rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</HESSV3:hasCoeCx>
+        <HESSV3:hasMotorPower rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</HESSV3:hasMotorPower>
+        <HESSV3:hasTotalMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1400.0</HESSV3:hasTotalMass>
+        <HESSV3:hasWheelRaduis rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.33</HESSV3:hasWheelRaduis>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#managementStrategy"/>
+        <HESSV3:controls rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter1"/>
+        <HESSV3:drives rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hess1"/>
+        <HESSV3:hasMethodManagementStrategy>Rule-Based</HESSV3:hasMethodManagementStrategy>
+        <HESSV3:hasOperatingModeManagementStrategy>Power Split</HESSV3:hasOperatingModeManagementStrategy>
+        <HESSV3:hasPrioritySourceManagementStrategy>Supercapacitor</HESSV3:hasPrioritySourceManagementStrategy>
+        <HESSV3:hasReactionTimeManagementStrategy rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.05</HESSV3:hasReactionTimeManagementStrategy>
     </owl:NamedIndividual>
     
 
