@@ -118,6 +118,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAeroForce -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAeroForce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAirDensity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAirDensity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAlpha -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAlpha">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAutonomyLoad -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAutonomyLoad">
@@ -271,6 +298,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasForce -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasForce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasFrontalArea -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasFrontalArea">
@@ -285,6 +321,24 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasGlobalEfficiency">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasGravity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasGravity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasGravityForce -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasGravityForce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
     
 
@@ -514,6 +568,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasPowerEquivalent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasPowerEquivalent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasPrioritySourceManagementStrategy -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasPrioritySourceManagementStrategy">
@@ -541,6 +604,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasRollingForce -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasRollingForce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasSinAlpha -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasSinAlpha">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasSocBattery -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasSocBattery">
@@ -554,6 +635,15 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasSohBattery">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasSpeed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
@@ -739,6 +829,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteryE1">
         <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteries"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#energyBattery"/>
         <HESSV3:hasCapacityBattery rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</HESSV3:hasCapacityBattery>
         <HESSV3:hasChargePowerDensityBattery rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-114.3</HESSV3:hasChargePowerDensityBattery>
@@ -759,6 +850,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteryP1">
         <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteries"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#powerBattery"/>
         <HESSV3:hasCapacityBattery rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</HESSV3:hasCapacityBattery>
         <HESSV3:hasChargePowerDensityBattery rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1046.3</HESSV3:hasChargePowerDensityBattery>
@@ -777,6 +869,7 @@
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteries"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter"/>
         <HESSV3:hasCommandConverter>PWM</HESSV3:hasCommandConverter>
         <HESSV3:hasCoolingConverter rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</HESSV3:hasCoolingConverter>
@@ -794,6 +887,7 @@
     <!-- http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hess1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hess1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hess"/>
         <HESSV3:isComposedOf rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteryE1"/>
         <HESSV3:isComposedOf rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#batteryP1"/>
@@ -815,11 +909,22 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load1">
         <rdf:type rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
         <HESSV3:receivesEnergyFrom rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hess1"/>
+        <HESSV3:hasAeroForce rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">161.70</HESSV3:hasAeroForce>
+        <HESSV3:hasAeroForce rdf:datatype="http://www.w3.org/2001/XMLSchema#float">161.7</HESSV3:hasAeroForce>
+        <HESSV3:hasAirDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.225</HESSV3:hasAirDensity>
+        <HESSV3:hasAlpha rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1745</HESSV3:hasAlpha>
         <HESSV3:hasAutonomyLoad rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150.0</HESSV3:hasAutonomyLoad>
         <HESSV3:hasCoeC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.008</HESSV3:hasCoeC0>
         <HESSV3:hasCoeC1 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6E-6</HESSV3:hasCoeC1>
         <HESSV3:hasCoeCx rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</HESSV3:hasCoeCx>
+        <HESSV3:hasForce rdf:datatype="http://www.w3.org/2001/XMLSchema#float">750.0</HESSV3:hasForce>
+        <HESSV3:hasFrontalArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</HESSV3:hasFrontalArea>
+        <HESSV3:hasGlobalEfficiency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92.0</HESSV3:hasGlobalEfficiency>
+        <HESSV3:hasGravity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.81</HESSV3:hasGravity>
         <HESSV3:hasMotorPower rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</HESSV3:hasMotorPower>
+        <HESSV3:hasPowerEquivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15000.0</HESSV3:hasPowerEquivalent>
+        <HESSV3:hasRollingForce rdf:datatype="http://www.w3.org/2001/XMLSchema#float">118.66176</HESSV3:hasRollingForce>
+        <HESSV3:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</HESSV3:hasSpeed>
         <HESSV3:hasTotalMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1400.0</HESSV3:hasTotalMass>
         <HESSV3:hasWheelRaduis rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.33</HESSV3:hasWheelRaduis>
     </owl:NamedIndividual>
@@ -863,43 +968,10 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/Pe">
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/h">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/be">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/V_BE">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/bp">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/V_BP">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/I_B">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/I_prime">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v_diff">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/Ps">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/p_in">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/e_c">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/p_out">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/x">
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/ec">
@@ -911,7 +983,52 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/eg">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/rho">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/s">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/cx">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/a">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/f">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/g">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/m">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/sina">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/mg">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c0">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c1v2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/p_in">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/e_c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/p_out">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/d">
@@ -995,152 +1112,6 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
-        <rdfs:label>converterPower</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasInputPowerConverter"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/Pe"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasVoltageBattery"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/be"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/V_BE"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasVoltageBattery"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/bp"/>
-                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/V_BP"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasCurrentBattery"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/bp"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/I_B"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasCurrentBattery"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/be"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/I_prime"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#subtract"/>
-                                                                        <swrl:arguments rdf:parseType="Collection">
-                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v_diff"/>
-                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/V_BE"/>
-                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/V_BP"/>
-                                                                        </swrl:arguments>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
-                                                                                <swrl:arguments rdf:parseType="Collection">
-                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/Pe"/>
-                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/I_B"/>
-                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v_diff"/>
-                                                                                </swrl:arguments>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                <rdf:first>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
-                                                                                        <swrl:arguments rdf:parseType="Collection">
-                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/Ps"/>
-                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/V_BP"/>
-                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/I_prime"/>
-                                                                                        </swrl:arguments>
-                                                                                    </rdf:Description>
-                                                                                </rdf:first>
-                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:rest>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasOutputPowerConverter"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/Ps"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
         <rdfs:label>converterOutputPower</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -1204,69 +1175,6 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
-        <rdfs:label>globalEfficiency</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasEfficiencyConverter"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/x"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/ec"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasEfficiencyHess"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/x"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/eh"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
-                                        <swrl:arguments rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/eg"/>
-                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/ec"/>
-                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/eh"/>
-                                        </swrl:arguments>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasGlobalEfficiency"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/x"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/eg"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
         <rdfs:label>batteriesChargePowerDensity</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -1321,6 +1229,581 @@
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasChargePowerDensityBattery"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/b"/>
                         <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>globalEfficiency</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#converter"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hess"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/h"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasEfficiencyConverter"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/ec"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasEfficiencyHess"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/h"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/eh"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/eg"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/ec"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/eh"/>
+                                                                </swrl:arguments>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasGlobalEfficiency"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/eg"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>aeroForce</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAirDensity"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/rho"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasFrontalArea"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/s"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasCoeCx"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/cx"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasSpeed"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v2"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v"/>
+                                                                </swrl:arguments>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/a"/>
+                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/rho"/>
+                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/s"/>
+                                                                        </swrl:arguments>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/b"/>
+                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/a"/>
+                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/cx"/>
+                                                                                </swrl:arguments>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c"/>
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/b"/>
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v2"/>
+                                                                                        </swrl:arguments>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                                                <swrl:arguments>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                        <rdf:first rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/f"/>
+                                                                                                        <rdf:rest>
+                                                                                                            <rdf:Description>
+                                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                                <rdf:first rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c"/>
+                                                                                                                <rdf:rest>
+                                                                                                                    <rdf:Description>
+                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</rdf:first>
+                                                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                                    </rdf:Description>
+                                                                                                                </rdf:rest>
+                                                                                                            </rdf:Description>
+                                                                                                        </rdf:rest>
+                                                                                                    </rdf:Description>
+                                                                                                </swrl:arguments>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAeroForce"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/f"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>gravityForce</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasAlpha"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/a"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasGravity"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/g"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasTotalMass"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/m"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#sin"/>
+                                                        <swrl:arguments rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/sina"/>
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/a"/>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/mg"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/m"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/g"/>
+                                                                </swrl:arguments>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/f"/>
+                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/mg"/>
+                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/sina"/>
+                                                                        </swrl:arguments>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasGravityForce"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/f"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>rollingForce</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#load"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasTotalMass"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/m"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasSpeed"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasCoeC0"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c0"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasCoeC1"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c1"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasGravity"/>
+                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/g"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v2"/>
+                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v"/>
+                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v"/>
+                                                                        </swrl:arguments>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c1v2"/>
+                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c1"/>
+                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/v2"/>
+                                                                                </swrl:arguments>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#add"/>
+                                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/a"/>
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c0"/>
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/c1v2"/>
+                                                                                        </swrl:arguments>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/mg"/>
+                                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/m"/>
+                                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/g"/>
+                                                                                                </swrl:arguments>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                <rdf:first>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/f"/>
+                                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/mg"/>
+                                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/a"/>
+                                                                                                        </swrl:arguments>
+                                                                                                    </rdf:Description>
+                                                                                                </rdf:first>
+                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:rest>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3#hasRollingForce"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/l"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kaout/ontologies/2025/4/HESSV3/f"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
